@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/networkOperatorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Network Operator Name"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/phoneType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Type"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/networkCountryIso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Network Country ISO"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/simCountryIso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SIM Country ISO"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/deviceSoftwareVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Device Software Version"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/fetchBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Telephony Services"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/outputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:paddingTop="20dp"/>
+</LinearLayout>
