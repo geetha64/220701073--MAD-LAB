@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SD Card"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="#8000FF"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/registerNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the register number...!"
+        android:inputType="text"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/edit_text" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name...!"
+        android:inputType="textPersonName"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/edit_text" />
+
+    <EditText
+        android:id="@+id/cgpaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the CGPA...!"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/edit_text" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        android:background="#8000FF"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/loadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        android:textColor="#FFFFFF"
+        android:background="#8000FF"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textViewOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:paddingTop="16dp"
+        android:textSize="16sp" />
+</LinearLayout>
